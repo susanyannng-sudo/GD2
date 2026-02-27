@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../../web code/html"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "web code"
+	}
+}
