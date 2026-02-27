@@ -1,11 +1,78 @@
-.header {
-    min-height:400px;
-    background:red;
+.square {
+  width: 800px;        
+  height: 800px;        
+  border: 1px solid black; 
+  box-sizing: border-box; 
+  background-color: rgb(254, 244, 229);
+  
 }
 
-.square {
-    background:blue;
-    width:300px;
-    height:300px;
-    border:1px solid red;
+.triangle {
+      width: 0;
+      height: 0;
+      border-left: 0px solid transparent;
+      border-right: 300px solid transparent;
+      border-bottom: 300px solid rgb(221, 56, 56);
+      position:absolute;
+      top: 440px;
+      left: 85px;
+      
+    }
+
+.rectangle {
+  width: 300px;
+  height: 150px;
+  background: rgb(221, 56, 56);
+  position:absolute;
+  top:50px;
+  left:85px;
+
+}
+
+ .triatopngle1 {
+      width: 0;
+      height: 0;
+      border-top: 500px solid rgb(221, 56, 56);
+      border-right: 350px solid transparent;
+      position:relative;
+      top:-690px;
+      left:77px;
+    }
+
+    .triatopngle {
+      width: 0;
+      height: 0;
+      border-top: 370px solid rgb(248, 167, 167);
+      border-right: 350px solid transparent;
+      position:absolute;
+      top:200px;
+      left:85px;
+    }
+
+.circle {
+  width: 170px;
+  height: 170px;
+  background: rgb(248, 167, 167);
+  border-radius: 70%
+ 
+}
+
+.circle {
+  position: absolute;
+  top: 5.15%; 
+  left: 24%; 
+}
+
+.circle2 {
+  width: 175px;
+  height: 175px;
+  background: rgb(221, 56, 56);
+  border-radius: 50%
+ 
+}
+
+.circle2 {
+  position: absolute;
+  top: 5.3%; 
+  left: 19.5%; 
 }
